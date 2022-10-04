@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Teko:wght@300;400;500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+:root {
+  --midnight-blue: #145da0;
+  --dark-blue: #0c2d48;
+  --blue: #2e8bc0;
+  --babby-blue: #b1d4e0;
+  --font-base: "teko";
+  --animate-delay: 0.5s;
+}
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--dark-blue);
+  color: var(--babby-blue);
+}
+
+#menu {
+  background: rgba(0, 0, 0, 0.225);
+  width: max-content;
+  display: block;
+  padding: 1rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  bottom: 2rem;
+}
+
+.navbar {
+  backdrop-filter: blur(15px);
+}
+.nav-link {
+  color: var(--babby-blue);
+}
+
+/* HOME */
+#home {
+  font-size: 40px;
+  height: 100vw;
+  width: auto;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+#desc {
+  font-size: 20px;
+}
+
+/* skill */
+#skill {
+  font-size: 40px;
+  height: 100vw;
+  width: auto;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  gap: 2rem;
+}
+
+.card-skill {
+  background: rgba(0, 0, 0, 0.225);
+  font-size: 21px;
+  margin: 2rem;
+  border-radius: 25px;
+  height: 200px;
+}
+
+/* Project */
+#project {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text-bg-dark {
+  background: rgba(0, 0, 0, 0.225);
+  border-radius: 10%;
+}
+
+.card-img {
+  width: 100%;
+  height: 15em;
+  align-items: center;
+  border-radius: 10%;
+  background: rgba(0, 0, 0, 0.225);
+  backdrop-filter: blur(15px);
+}
+
+/* Article */
+
+#card-article {
+  background: rgba(0, 0, 0, 0.225);
+  font-size: 21px;
+  margin: 2rem;
+  border-radius: 25px;
+  height: auto;
+}
+
+#article {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/* contact */
+#contact {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* animasi */
